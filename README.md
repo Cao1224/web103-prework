@@ -35,7 +35,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-👉🏿<img src='./src/assets/img/web103-prework-demo.gif' title='Video Walkthrough' width='600' alt='Video Walkthrough' />
+<img src='./src/assets/img/web103-prework-demo.gif' title='Video Walkthrough' width='600' alt='Video Walkthrough' />
 
 ## Notes
 
