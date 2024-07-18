@@ -4,14 +4,14 @@ Submitted by: **Yuancheng Cao**
 
 About this web app: **👉🏿 app description here**
 
-Time spent: **👉🏿 X** hours
+Time spent: **12** hours
 
 ## Required Features
 
 The following **required** functionality is completed:
 
 <!-- 👉🏿👉🏿👉🏿 Make sure to check off completed functionality below -->
-- [ ] **A logical component structure in React is used to create the frontend of the app**
+- [x] **A logical component structure in React is used to create the frontend of the app**
 - [ ] **At least five content creators are displayed on the homepage of the app**
 - [ ] **Each content creator item includes their name, a link to their channel/page, and a short description of their content**
 - [ ] **API calls use the async/await design pattern via Axios or fetch()**
