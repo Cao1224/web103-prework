@@ -1,0 +1,90 @@
+@import "~bootstrap/scss/bootstrap";
+
+
+.card {
+    border-radius: var(--bs-border-radius-xl);
+    box-shadow: var(--bs-box-shadow-sm);
+    border-color: #f8f9fa;
+    background-color: #f8f9fa;
+}
+
+.card:hover {
+    background: white;
+    border-color: rgb(200, 200, 200);
+    transform: translateY(-0.5rem);
+}
+
+.icon {
+    padding: 5px;
+}
+
+.icon:hover {
+    border-radius: var(--bs-border-radius-sm);
+    background-color: #eeeeee;
+    transform: translateY(-0.5rem);
+}
+
+  .creator-image {
+
+    max-width: 80%;
+    height: auto;
+    border-radius: 15px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .button:hover {
+    transform: translateY(-0.5rem);
+  }
+
+  .btn:hover{
+    transform: translateX(1rem);
+  }
+  
+
+  
+  /* Media Queries */
+@media (min-width: 600px) {
+    .left-div,
+    .right-div {
+      flex: 1; /* 50% width for larger screens */
+    }
+  
+    .creator-image {
+      max-width: 200px; /* Adjust the max-width as needed */
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .left-right-container {
+      flex-wrap: nowrap; /* No wrapping on larger screens */
+    }
+    .left-div {
+      order: 1; /* Maintain order */
+    }
+    .right-div {
+      order: 2; /* Maintain order */
+    }
+  
+    .creator-image {
+      max-width: 250px; /* Adjust the max-width as needed */
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .creator-image {
+      max-width: 300px; /* Adjust the max-width as needed */
+    }
+  }

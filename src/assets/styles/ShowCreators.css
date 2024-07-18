@@ -1,0 +1,53 @@
+.header {
+    position: relative;
+    width: 100%;
+    height: 630px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .header img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+
+  .header::after {
+    content: '';
+    position: absolute;
+    bottom: -30px; /* Adjust based on how pronounced you want the curve */
+    left: 0;
+    width: 100%;
+    height: 100px; /* Height of the curve */
+    background: white;
+    border-radius: 15% / 25px; /* Adjust the curve shape */
+    z-index: 0;
+  }
+  
+ 
+  .button-container {
+    display: flex;
+    gap: 3em;
+  }
+  
+  .button {
+    padding: 0.5em 1em;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    text-transform: uppercase;
+  }
+  
+  .container {
+    padding: 2em;
+  }
+  
