@@ -72,7 +72,7 @@ const ViewCreator = () => {
     <div>
       <header className='header'>
         <img src={header_image} alt="Header Background"></img>
-            <h1 className="fw-bold mb-5 text-white">CREATORVERSE</h1>
+            <h1 className="fw-bold mb-5 text-white">Creators Wiki</h1>
             <div className='button-container mt-5'>
                 <button className='text-uppercase button bg-secondary text-white fw-bold fs-6 me-5' onClick={() => navigate('/')}>View all creators</button>
                 <button className='text-uppercase button bg-secondary text-white fw-bold fs-6' onClick={() => navigate('/creator/new')}>Add a creators</button>
